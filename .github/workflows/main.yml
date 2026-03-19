@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Bước 1 – Lấy source code
-        uses: actions/checkout@v4   #Clone code về máy ảo
+        uses: actions/checkout@v5   #Clone code về máy ảo
 
       - name: Bước 2 – Cài Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '18'   #Chọn version Node
 
